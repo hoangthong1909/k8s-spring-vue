@@ -14,9 +14,7 @@ Spring Boot Rest CRUD API example - Spring Data JPA to interact with MySQL datab
 => VD :  kubectl apply -f .\deploy\deployment.yaml   
 7. Check deploy:
 => kubectl -n test get svc -o wide
-NAME           TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE   SELECTOR
-backend-svc    NodePort   10.232.210.81    <none>        8080:31302/TCP   21h   app=backend
-frontend-svc   NodePort   10.232.101.255   <none>        80:32333/TCP     21h   app=frontend
-mysql-svc      NodePort   10.202.49.173    <none>        3306:30306/TCP   21h   app=mysql
+
+![image](https://github.com/user-attachments/assets/360a49b9-7dab-486e-b211-26f9e769c720)
 
 => localhost:32333
